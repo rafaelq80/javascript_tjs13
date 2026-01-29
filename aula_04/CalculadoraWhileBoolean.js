@@ -1,8 +1,8 @@
 const leia = require("readline-sync");
 
-let continua = 'S';
+let continua = true;
 
-while(continua === 'S'){
+while(continua){
 
     console.log("\n============================================");
     console.log("       CALCULADORA COM SWITCH CASE          ");
@@ -41,6 +41,8 @@ while(continua === 'S'){
             console.log("Operacao Invalida!");
     }
 
-    continua = leia.keyIn("Deseja continuar (S/N)").toUpperCase();
+    continua = leia.keyInYNStrict("Deseja continuar (Y/N)");
 
 }
+
+CSSConditionRule.log("\nPrograma Finalizado!")

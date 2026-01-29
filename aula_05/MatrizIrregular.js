@@ -3,9 +3,7 @@ let matriz = [
     [2, 6, 4]
 ]
 
-//console.log(matriz[0].length);
-
-//console.table(matriz);
+console.log(matriz[0].length);
 
 for (let linha = 0; linha < matriz.length; linha ++){
     for (let coluna = 0; coluna < matriz[linha].length; coluna ++){
